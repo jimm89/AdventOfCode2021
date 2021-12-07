@@ -22,7 +22,7 @@ private fun myAssert(x: Boolean) {
 }
  
 fun main(args: Array<String>) {
-    var F = readInput("AOC21_in_1A").asInts()
+    var F = readInput("AOC21_1A_in").asInts()
     var n = F.size
     var ans = 0
     for (j in 3 until n) {
